@@ -213,6 +213,14 @@ A suggested repository structure is:
 
 This notebook combines feature-level exploration with a six-model classification benchmark for smartphone-based human activity recognition. The best result in the recorded experiment was obtained by **Logistic Regression**, with **95.49% test accuracy** and **0.9546 macro F1**. The final code also saves each trained model and the benchmark table for later reuse.
 
+## Dataset Citation
+```text
+J. Reyes-Ortiz, D. Anguita, A. Ghio, L. Oneto, and X. Parra.
+"Human Activity Recognition Using Smartphones,"
+UCI Machine Learning Repository, 2013. [Online].
+Available: https://doi.org/10.24432/C54S4K.
+```
+
 ## Notes
 
 In layman terms we are using the descriptive statistics of the smartphone-based human activity recognition sensor signals as the feature to these six supervised models, and then the predictions are curated based on the statistics.
