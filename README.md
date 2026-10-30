@@ -78,8 +78,6 @@ The training activity counts recorded in the notebook are:
 | Standing | 1,374 |
 | Laying | 1,407 |
 
-![Training activity distribution](figures/activity_distribution.png)
-
 ### 4. Model training and evaluation
 
 The notebook first evaluates a Random Forest with 100 trees. It then benchmarks five additional classifiers. In the final benchmarking cell, the models are:
@@ -127,7 +125,7 @@ Below are the confusion matrix for the models
 ![Confusion Matrix Logistic Regression](figures/logistic_regression.png)
 ![Confusion Matrix SVM](figures/svm.png)
 ![Confusion Matrix Neural network](figures/nn.png)
-![Confusion Matrix Gradient Boosting](figures/grad_boosting.png)
+![Confusion Matrix Gradient Boosting](figures/gradient_boosting.png)
 ![Confusion Matrix Random Forest](figures/random_forest.png)
 ![Confusion Matrix KNN](figures/knn.png)
 
@@ -145,8 +143,6 @@ The notebook's Logistic Regression classification report gives the following per
 | 4 | Sitting | 0.92 | 491 |
 | 5 | Standing | 0.93 | 532 |
 | 6 | Laying | 1.00 | 537 |
-
-![Logistic Regression F1 by activity](figures/logistic_regression_class_f1.png)
 
 The reported results suggest that the selected engineered features separate the six activities well. In this benchmark, Logistic Regression slightly outperformed the RBF SVM, while KNN had the lowest accuracy and Gradient Boosting had the longest training time. These are results for this notebook's configuration and supplied split, not a claim that the same ranking will hold for every experiment.
 
