@@ -122,12 +122,14 @@ The following values come from the final benchmark output in the notebook.
 
 Below are the confusion matrix for the models
 
-![Confusion Matrix Logistic Regression](figures/logistic_regression.png)
-![Confusion Matrix SVM](figures/svm.png)
-![Confusion Matrix Neural network](figures/nn.png)
-![Confusion Matrix Gradient Boosting](figures/gradient_boosting.png)
-![Confusion Matrix Random Forest](figures/random_forest.png)
-![Confusion Matrix KNN](figures/knn.png)
+<div align="center">
+  <img src="figures/logistic_regression.png" width="300">
+  <img src="figures/svm.png" width="300">
+  <img src="figures/nn.png" width="300">
+  <img src="figures/gradient_boosting.png" width="300">
+  <img src="figures/random_forest.png" width="300">
+  <img src="figures/knn.png" width="300">
+</div>
 
 ### Best-performing model
 
